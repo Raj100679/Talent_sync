@@ -1,23 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import Navbar from './Components/Navbar';
+import MidPage from './Components/MidPage';
+import Social from './Components/Social';
+import Advantage from './Components/Advantage';
+import Testimonial from './Components/Testimonial';
+import Faq from './Components/Faq';
+import Trial from './Components/Trial';
+import Footer from './Components/Footer';
+import LastFooter from './Components/LastFooter';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navbar/>
+      <MidPage/>
+      <Social/>
+      <Advantage/>
+      <Testimonial/>
+      <Faq/>
+      <Trial/>
+      <Footer/>
+      <LastFooter/>
     </div>
   );
 }

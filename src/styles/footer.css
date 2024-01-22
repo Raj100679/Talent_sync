@@ -1,0 +1,127 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+    align-items: center;
+    padding: 96px 0 48px;
+}
+.firstdivfoot {
+    display: inline-flex;
+    flex: 0 0 auto;
+    align-items: flex-start;
+    gap: 60px;
+    justify-content: center;
+}
+.seconddivfoot {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+    width: 320px;
+}
+.thirddivfoot {
+    display: inline-flex;
+    flex: 0 0 auto;
+    align-items: center;
+    /* gap: 100px; */
+}
+.supporttxtfoot {
+    align-self: stretch;
+    color: var(--Gray-600, #475467);
+    font-family: "Large-Semibold", Helvetica, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+}
+.links-col {
+    display: inline-flex;
+    flex: 0 0 auto;
+    align-items: flex-start;
+    gap: 20px;
+}
+.footlink {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 16px;
+    width: 160px;
+}
+.foothead {
+    align-self: stretch;
+    color: var(--Gray-500, #667085);
+    font-family: "Inter-Semibold", Helvetica, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+}
+.footheadtag {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    align-self: stretch;
+}
+.pfoot {
+    color: var(--Gray-600, #475467);
+    font-family: "Inter-Semibold", Helvetica, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+}
+.fourthdivfoot {
+    display: inline-flex;
+    flex: 0 0 auto;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 16px;
+}
+.headfoot2 {
+    align-self: stretch;
+    color: var(--Blue-dark-700, #004eeb);
+    font-family: "Medium-Semibold", Helvetica, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+}
+.lfoot {
+    display: flex;
+    align-items: center;
+    background-color: rgba(249, 250, 251, 1);
+    flex-direction: column;
+    gap: 64px;
+    padding: 48px 48px;
+}
+.containerlfoot {
+    display: flex;
+    align-items: flex-start;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 64px;
+    width: 1260px;
+}
+.contentlfoot {
+    display: flex;
+    flex: 0 0 auto;
+    align-items: flex-start;
+    align-self: stretch;
+    gap: 32px;
+}
+.foot-text {
+    color: var(--Gray-500, #667085);
+    font-family: "Regular-Semibold", Helvetica, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; 
+    flex: 1 0 0;
+}
+.soc-icons-foot{
+    display: inline-flex;
+    flex: 0 0 auto;
+    align-items: center;
+    gap: 24px;
+}

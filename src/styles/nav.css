@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.nav {
+    margin: 30px 110px 80px 110px;
+    display: flex;
+    width: 1100px;
+    padding: 10px 50px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 100px;
+    border: 1px solid var(--Gray-300, #d0d5dd);
+    background: var(--Gray-100, #f2f4f7);
+}
+.firstdiv {
+    align-items: center;
+    justify-content: center;
+    display: inline-flex;
+    flex: 0 0 auto;
+    position: relative;
+}
+.logo {
+    width: 25.384px;
+    height: 28px;
+    margin-right: 8px;
+}
+
+.clrtext {
+    color: var(--Gray-900, #101828);
+    font-family: "Inter-SemiBold", Helvetica, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin: 0;
+}
+.clrdot {
+    color: var(--Blue-dark-400, #528bff);
+    font-family: "Inter-SemiBold", Helvetica, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin: 0;
+}
+.seconddiv {
+    display: inline-flex;
+    align-items: flex-start;
+    flex: 0 0 auto;
+    gap: 20px;
+}
+.dropchev {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+.droptext {
+    color: var(--Gray-500, #667085);
+    font-family: "Large-Semibold", Helvetica, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+}
+.chevst {
+    width: 18px;
+    height: 18px;
+}
+.fourthdiv {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+.btn-1 {
+    all: unset;
+    display: flex;
+    padding: 10px 22px;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    border-radius: 100px;
+    border: 1px solid var(--Gray-400, #98a2b3);
+    background: #fff;
+    box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+}
+.sales {
+    color: var(--Gray-900, #101828);
+    font-family: "Medium-Semibold", Helvetica, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0;
+}
+.btn-2 {
+    all: unset;
+    display: flex;
+    padding: 10px 22px;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    border-radius: 100px;
+    background: var(--Blue-700, #175cd3);
+    box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+}
+.sign {
+    color: var(--Base-White, #fff);
+    font-family: "Medium-Semibold", Helvetica, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0;
+}

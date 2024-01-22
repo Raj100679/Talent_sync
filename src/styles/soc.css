@@ -1,0 +1,19 @@
+.pt {
+    color: var(--Gray-600, #475467);
+    text-align: center;
+    font-family: "Medium-Semibold", Helvetica, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+    align-self: stretch;
+}
+.seconddivsoc {
+    display: flex;
+    align-items: center;
+    gap: 69px;
+    margin: 48px 50px 0;
+}
+.firstdivsoc{
+    padding: 96px 20px 96px 40px;
+}
