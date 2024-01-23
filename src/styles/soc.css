@@ -7,13 +7,14 @@
     font-weight: 500;
     line-height: 30px;
     align-self: stretch;
+   
 }
 .seconddivsoc {
     display: flex;
     align-items: center;
-    gap: 69px;
-    margin: 48px 50px 0;
+    gap: 50px;
+    margin: 48px 60px;
 }
 .firstdivsoc{
-    padding: 96px 20px 96px 40px;
+    padding: 96px 280px;
 }

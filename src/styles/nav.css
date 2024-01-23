@@ -3,16 +3,17 @@
     padding: 0;
 }
 .nav {
-    margin: 30px 110px 80px 110px;
+    margin: 40px 200px 40px 320px;
     display: flex;
-    width: 1100px;
-    padding: 10px 50px;
+    width: 1250px;
+    padding: 15px 25px;
     justify-content: space-between;
     align-items: center;
     border-radius: 100px;
     border: 1px solid var(--Gray-300, #d0d5dd);
     background: var(--Gray-100, #f2f4f7);
 }
+
 .firstdiv {
     align-items: center;
     justify-content: center;

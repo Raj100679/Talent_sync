@@ -1,0 +1,16 @@
+#root {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    background-image: url("./Images/bgp.png");
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position:  top center;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}

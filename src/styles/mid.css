@@ -3,12 +3,13 @@
     padding: 0;
 }
 .firstdivmid {
-    margin: 40px 120px 96px 120px;
+    margin: 96px 200px 96px 350px;
     display: flex;
     align-items: center;
     flex: 0 0 auto;
     justify-content: space-between;
-    width: 1070;
+    width: 1250px;
+    /* background: url("../Images/bgp.png"); */
 }
 .seconddivmid {
     display: inline-flex;

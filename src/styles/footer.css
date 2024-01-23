@@ -3,7 +3,9 @@
     flex-direction: column;
     gap: 64px;
     align-items: center;
-    padding: 96px 0 48px;
+    padding: 96px  280px;
+    width: 1300px;
+    margin-left: 60px;
 }
 .firstdivfoot {
     display: inline-flex;
@@ -93,7 +95,7 @@
     background-color: rgba(249, 250, 251, 1);
     flex-direction: column;
     gap: 64px;
-    padding: 48px 48px;
+    padding: 48px 98px;
 }
 .containerlfoot {
     display: flex;
@@ -101,7 +103,7 @@
     flex: 0 0 auto;
     flex-direction: column;
     gap: 64px;
-    width: 1260px;
+    width: 1200px;
 }
 .contentlfoot {
     display: flex;
